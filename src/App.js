@@ -1,6 +1,7 @@
 import './App.css';
 import React, {useState} from "react";
 import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio"
 
 function App() {
   const [pages] = useState([
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="App">
      <Navbar pages = {pages} setCurrentPage = {setCurrentPage} currentPage = {currentPage}></Navbar>
+     <Portfolio></Portfolio>
     </div>
   );
 }

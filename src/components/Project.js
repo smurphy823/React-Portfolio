@@ -2,19 +2,19 @@ import React from "react";
 
 function Project(props) {
     return(
-        <div key = {props.title}>
-            {/* <img src = {require(`../assets/homeworks/${props.title}.jpg`)}/> */}
+        <div key = {props.homework.title}>
+            {/* <img src = {require(`../assets/imgs/${props.homework.title}.jpg`)}/> */}
             <div>
                 <h2>
-                    {props.title}
+                    {props.homework.title}
                 </h2>
                 <p>
-                    {props.description}
+                    {props.homework.description}
                 </p>
-                <a href = {props.deployed}>
+                <a href = {props.homework.deployed}>
                     Deployed link
                 </a>
-                <a href = {props.github}>
+                <a href = {props.homework.github}>
                     Github link
                 </a>
             </div>

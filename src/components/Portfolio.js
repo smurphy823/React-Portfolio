@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Project from "./Project"
 
 function Portfolio() {
     const [homeworks] = useState([
@@ -14,9 +15,13 @@ function Portfolio() {
         <div>
             {
                 homeworks.map((homework, id) => (
+                <Project homework = {homework} key = {id}>
 
+                </Project>
                 ))
             }
         </div>
     )
 }
+
+export default Portfolio;
