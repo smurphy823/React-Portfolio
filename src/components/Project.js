@@ -3,7 +3,7 @@ import React from "react";
 function Project(props) {
     return(
         <div key = {props.homework.title}>
-            {/* <img src = {require(`../assets/imgs/${props.homework.title}.jpg`)}/> */}
+            {/* <img src = {require(props.homework.imgLink)}/> */}
             <div>
                 <h2>
                     {props.homework.title}

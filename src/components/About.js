@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 function About() {
     return(
         <section className="about-me" id="about">
@@ -13,6 +14,7 @@ function About() {
                <p>Reactjs and Nodejs are the frameworks that I have most recently learned and worked with.</p>
        </div>
        
+      
         </section>
     )
 }
