@@ -2,6 +2,7 @@ import React from "react";
 import Wrapper from "../Wrapper";
 import image from "./profile-pic.jpg";
 import "../styles/home.css";
+import Stephs_Resume from "../Pages/assets/Stephs_Resume.pdf";
 
 function Home() {
   return (
@@ -58,6 +59,7 @@ function Home() {
                 children ages 10-21, three boys and two girls. Also on my free,
                 free time I like to hang out with friends and enjoy life.
               </p>
+              <p>Resume: <a href="https://docs.google.com/document/d/1iVfDRl7o4-J22V2BHrLdQVJD05cP3poLL8t4cCMovoA/edit" alt="takes you to Resume on GoogleDocs" className="about-me__resume-link">View</a> | <a href={Stephs_Resume} alt="Download Resume" className="about-me__resume-link"download="Stephs_Resume">Download</a></p>
             </section>
           </section>
         </section>
