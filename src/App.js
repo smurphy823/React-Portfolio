@@ -1,27 +1,27 @@
-import './App.css';
-import React, {useState} from "react";
-import Navbar from "./components/Navbar";
-import PageToggle from "./components/PageToggle"
+import React from 'react';
+import { HashRouter as Router, Route } from "react-router-dom";
+import NavBar from "./Components/Header/index";
+import Home from "./Components/Pages/Home";
+import Contact from "./Components/Pages/Contact";
+import Portfolio from "./Components/Pages/Portfolio";
+import Footer from "./Components/Footer";
+
 
 function App() {
-  const [pages] = useState([
-    {
-      page: "About Me"
-    },
-    {
-      page: "Contact"
-    },
-    {
-      page: "Portfolio"
-    },
-  ])
-
-  const [currentPage, setCurrentPage] = useState(pages[0])
   return (
-    <div className="App">
-     <Navbar pages = {pages} setCurrentPage = {setCurrentPage} currentPage = {currentPage}></Navbar>
-    <PageToggle currentPage = {currentPage}></PageToggle>
+
+    <Router>
+    <div className="d-flex flex-column h-100">
+    <NavBar/>
+      <Route exact path="/" component= {Home}/>
+      <Route exact path="/about" component= {Home}/>
+      <Route exact path="/portfolio" component= {Portfolio}/>
+      <Route exact path="/contact" component= {Contact}/>
     </div>
+    <Footer/>
+    </Router>
+
+
   );
 }
 
