@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.60ae330d.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.2dee0cd4.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.2dee0cd4.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.16e29856.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.16e29856.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0b0b686b.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.0b0b686b.js.map",
     "static/css/2.61b4cb56.chunk.css": "/React-Portfolio/static/css/2.61b4cb56.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/FitnessTracker.5bd602e8.PNG": "/React-Portfolio/static/media/FitnessTracker.5bd602e8.PNG",
     "static/media/KitchenBlogger.7ce74bbf.PNG": "/React-Portfolio/static/media/KitchenBlogger.7ce74bbf.PNG",
     "static/media/SparxLawncare.952b2593.PNG": "/React-Portfolio/static/media/SparxLawncare.952b2593.PNG",
+    "static/media/Stephs_Resume.d66bab68.pdf": "/React-Portfolio/static/media/Stephs_Resume.d66bab68.pdf",
     "static/media/WeatherDashboard.3770e049.PNG": "/React-Portfolio/static/media/WeatherDashboard.3770e049.PNG",
     "static/media/WorkdayScheduler.db4ae147.PNG": "/React-Portfolio/static/media/WorkdayScheduler.db4ae147.PNG",
     "static/media/profile-pic.37b8f02d.jpg": "/React-Portfolio/static/media/profile-pic.37b8f02d.jpg"
@@ -25,6 +26,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.8b7735d7.chunk.js",
     "static/css/main.60ae330d.chunk.css",
-    "static/js/main.2dee0cd4.chunk.js"
+    "static/js/main.16e29856.chunk.js"
   ]
 }
